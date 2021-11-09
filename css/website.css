@@ -1,0 +1,263 @@
+#back{
+      margin: auto;
+	  position: fixed;
+	  left: 0;
+	  top: 0;
+	  width: 100%;
+	  height: 100%;
+	  z-index: -999;
+}
+
+#wrapper{
+		 width: 980px;
+		 height: 645px;
+		 display: block;
+		 margin: auto;
+}
+
+#banner{
+        width: 980px;
+		height: 100px;
+		margin: auto;
+}
+
+#banner1{
+         float: left;
+}
+
+#content{
+
+    width: 980px;
+	height: 595px;
+	display: block;
+	margin-top: 5px;
+    overflow: auto;
+	background-image: url(../img/background.gif);
+	opacity: 0.9;
+}
+
+#form{  
+      float: left;
+	  font-family: Calibri;
+	  margin-top: -30px;
+	  padding-left: 5px;
+}
+
+textarea{
+        width: 300px;
+		height: 100px;
+}
+
+.button{
+        margin-top: 5px;
+}
+
+header{
+      font-family: Helvetica;
+	  font-size: 56px;
+	  font-weight: bold;
+	  color: #13301a;
+	  float: left;
+	  margin-left: -5px;
+	  margin-top: 25px;
+	  letter-spacing: 1px;
+}
+
+h5{
+   font-family: Calibri;
+   font-weight: bold;
+   color: #fff;
+   float: left;
+   margin-top: 5px;
+}
+
+h1{
+   font-family: Helvetica;
+   font-size: 56px;
+   font-weight: bold;
+   color: #2f7a46;
+   float: left;
+   margin-left: 40px;
+   letter-spacing: 2px;
+   margin-top: 25px;
+}
+  
+#head{
+      width: 980px;
+	  height: 39px;
+	  margin: auto;
+	  display: block;
+}
+
+#logo{
+      float: left;
+	  margin-top: 10px;
+	  margin-left: -1px;
+}
+
+form{
+    padding: 0 auto; 
+	float: right;
+	margin-top: 55px;
+}
+
+#search{
+        float: right;
+		padding-bottom: 1px;
+		margin-right: 5px;
+}
+
+#submit{
+        margin-right: 5px;
+		padding-bottom: 2px;
+}
+
+#fb{
+      float: right;
+	  margin-right: -185px;
+	  margin-top: 5px;
+}
+
+#twitter{
+         float: right;
+	     margin-right: -220px;
+	     margin-top: 5px;
+}
+
+#navbar{
+	    height: 50px;
+        padding: 0;
+	    margin-top: 5px;
+		margin-left: 0px;
+	    position: absolute; /* Ensures that the menu doesn’t affect other elements */
+		display: block;
+}
+	
+#navbar li{
+		 height: auto;
+		 width: 163.5px;  /* Each menu item is 150px wide */
+		 float: left;  /* This lines up the menu items horizontally */
+		 text-align: center;  /* All text is placed in the center of the box */
+		 list-style: none;  /* Removes the default styling (bullets) for the list */
+		 font-family: Calibri;
+         font-weight: regular;
+         font-size: 14px;		 
+		 padding: 0;
+		 margin: 0;
+		 background-color: #13301a;
+}
+						
+#navbar a{							
+		 padding: 19px;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		 border-left: 1px solid #13301a; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		 border-right: 1px solid #2f7a46;
+         border-bottom: 1px solid #13301a;		 /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		 text-decoration: none;  /* Removes the default hyperlink styling. */
+		 color: #fff; /* Text color is white */
+		 display: block;
+		 line-height: 0px;
+}
+		
+#navbar li:hover, a:hover{
+                        background-color: #2f7a46;
+} 
+		
+#navbar li ul{
+		   display: none;  /* Hides the drop-down menu */
+		   height: auto;									
+		   margin: 0; /* Aligns drop-down box underneath the menu item */
+		   padding: 0; /* Aligns drop-down box underneath the menu item */			
+}				
+
+#navbar li:hover ul{
+                 display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
+						
+#navbar li ul li{
+            background-color: #2f7a46;
+} 
+						
+#navbar li ul li a{
+		      border-left: 1px solid #13301a; 
+		      border-right: 1px solid #13301a; 
+		      border-top: 1px solid #2f7a46; 
+		      border-bottom: 1px solid #13301a; 
+}
+				
+#navbar li ul li a:hover{
+                    background-color: #13301a;
+}
+
+#navbar li ul li a:hover{
+	                font-size: 16px;
+}
+
+#navbar ul, li{
+            z-index: 10000;
+		    position: relative;
+}
+
+h2{
+   color: #000;
+   font-size: 25px;
+   font-family: Calibri;
+   padding-left: 5px;
+}
+
+h3{
+   color: #000;
+   font-size: 18px;
+   font-family: Calibri;
+   padding-left: 5px;
+}
+p{
+  color: #000;
+  font-size: 14px;
+  font-family: Calibri;
+  padding-left: 5px;
+  padding-right: 200px;
+}
+
+#slideshow1{
+            width: 980px;
+		    height: 595px;
+		    display: block;
+		    margin-top: 5px;
+            overflow: auto;
+		    background-color: #000;
+}
+
+#slideshow3{
+            width: 980px;
+		    height: 595px;
+		    display: block;
+		    margin-top: 5px;
+            overflow: auto;
+		    background-image: url(../img/background.gif);
+		    opacity: 0.9;
+}  
+#googlemap{
+           margin-left: 14px;
+		   margin-top: 10px;
+}
+
+#slideshow2{
+            width: 980px;
+		    height: 595px;
+		    display: block;
+		    margin-top: 5px;
+            overflow: auto;
+		    background-image: url(../img/background.gif);
+			opacity: 0.9;
+}
+
+.text-block {
+	position: absolute;
+	margin: -48px 0px 0px 0px;
+	background-color: black;
+	opacity: 0.8;
+	padding-right: 47.6%;
+  }
+  .color{
+	color: white;
+  }
